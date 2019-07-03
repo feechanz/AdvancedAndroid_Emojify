@@ -42,7 +42,7 @@ public class Emojifier {
                 switch (whichEmoji(face)) {
                     case SMILE:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.smile);
+                                R.drawable.usagi);
                         break;
                     case FROWN:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
